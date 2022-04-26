@@ -4,6 +4,7 @@ import ListReactHook from './page/react-hook/List'
 import UseStatePage from './page/react-hook/use-state'
 import UseEffectPage from './page/react-hook/use-effect'
 import UseContextPage from './page/react-hook/use-context'
+import UseRefPage from './page/react-hook/use-ref'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/react-hook/use-state" element={<UseStatePage />} />
         <Route path="/react-hook/use-effect" element={<UseEffectPage />} />
         <Route path="/react-hook/use-context" element={<UseContextPage />} />
+        <Route path="/react-hook/use-ref" element={<UseRefPage />} />
         <Route path="/react-hook" element={<ListReactHook />} />
       </Routes>
     </div>
